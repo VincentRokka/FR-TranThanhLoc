@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FR-Tranthanhloc", "FR-Tranthanhloc.csproj", "{AEBD7B64-330F-4C0B-83D0-CD8FB80E25D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FR-TranThanhLoc", "FR-TranThanhLoc.csproj", "{AEBD7B64-330F-4C0B-83D0-CD8FB80E25D9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basic CSharp", "Basic CSharp", "{7F153878-B69A-4B3F-97A5-229566401106}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{6ED20D6B-A3CC-4797-AB51-D6AA8A7AAFA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{6ED20D6B-A3CC-4797-AB51-D6AA8A7AAFA5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

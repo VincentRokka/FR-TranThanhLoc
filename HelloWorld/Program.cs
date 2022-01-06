@@ -13,6 +13,7 @@ namespace Program
 
             Console.WriteLine("Hello <" + yourName + " >!");
             Console.WriteLine("Welcome to NTQ Solution");
+            Console.WriteLine("Bye");
             Console.ReadKey();
         }
     }
