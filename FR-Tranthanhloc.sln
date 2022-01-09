@@ -9,7 +9,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basic CSharp", "Basic CShar
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{6ED20D6B-A3CC-4797-AB51-D6AA8A7AAFA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array", "Array\Array.csproj", "{A49C46C2-4CA3-4B1E-B763-B48C0C6A956C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Array", "Array\Array.csproj", "{A49C46C2-4CA3-4B1E-B763-B48C0C6A956C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "String", "String\String.csproj", "{96E39009-92B0-4C22-90E9-7B3322FA9F4C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{A49C46C2-4CA3-4B1E-B763-B48C0C6A956C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A49C46C2-4CA3-4B1E-B763-B48C0C6A956C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A49C46C2-4CA3-4B1E-B763-B48C0C6A956C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96E39009-92B0-4C22-90E9-7B3322FA9F4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96E39009-92B0-4C22-90E9-7B3322FA9F4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96E39009-92B0-4C22-90E9-7B3322FA9F4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96E39009-92B0-4C22-90E9-7B3322FA9F4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +42,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{6ED20D6B-A3CC-4797-AB51-D6AA8A7AAFA5} = {7F153878-B69A-4B3F-97A5-229566401106}
 		{A49C46C2-4CA3-4B1E-B763-B48C0C6A956C} = {7F153878-B69A-4B3F-97A5-229566401106}
+		{96E39009-92B0-4C22-90E9-7B3322FA9F4C} = {7F153878-B69A-4B3F-97A5-229566401106}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AA64C203-D43B-4547-B3C9-B0FCE7E46BDE}
