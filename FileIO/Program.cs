@@ -93,9 +93,21 @@ namespace FileIO
 
         }
 
+        public static void CsvFile()
+        {
+            using (StreamReader z = new StreamReader("D:\\Vip2\\CSVFile.csv"))
+            {
+                string line;
+                while((line = z.ReadLine()) != null)
+                {
+                    Console.WriteLine(line);
+                }
+            }
+        }
+
         public static void Main(string[] args)
         {
-            WriteAndReadTextFile("ThirdFileWriteAndRead.txt");
+            //WriteAndReadTextFile("ThirdFileWriteAndRead.txt");
 
             ReadFileTest("NoFile.txt");
             Console.WriteLine("New Turn: ");
@@ -103,6 +115,8 @@ namespace FileIO
             Console.WriteLine("Turn 3: ");
             BinaryFileTest("BinaryFile1.txt");
             BinaryFileTest("BinaryFile2.txt");
+            Console.WriteLine("Read File CSV: ");
+            CsvFile();
         }
     }
 }
